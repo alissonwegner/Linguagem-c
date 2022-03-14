@@ -1,0 +1,11 @@
+Esses exercícios são apenas para praticar, não sendo necessário entregar.
+
+1. Escreva um programa que leia uma string e faça a sua inversão. 
+Por exemplo, lida a string "prova", deve ser exibido na tela "avorp". A inversão deve ser feita na própria string, 
+sem copiar seu conteúdo para outra. Além disso, não use índices, fazendo toda manipulação através de ponteiros.
+
+2. Escreva um programa que leia duas strings e copie para uma terceira o maior trecho que seja comum a ambas. 
+Se não houver nenhum trecho em comum (nem mesmo uma letra), a string resultante deve ser mantida vazia. 
+Se houver dois trechos com mesmo tamanho, pode ser copiado qualquer um. Os trechos considerados devem ter as mesmas letras, 
+na mesma ordem, mas podem começar em posições distintas nas duas strings.
+ Faça todo o código sem usar índices, fazendo as manipulações com ponteiros.
