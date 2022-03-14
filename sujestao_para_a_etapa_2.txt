@@ -1,0 +1,33 @@
+
+---------------------------------
+&90	|    & 91    |   &92    |
+---------------------------------		
+&93	|    &94     |	 &95    |
+---------------------------------
+&96	|    &97     |	 &98    |
+---------------------------------
+&99	|    &100    |	 &101   |
+---------------------------------
+&102	|    &103    |   &104   |		
+---------------------------------
+&105	|    &106    |   &107   |	
+---------------------------------
+
+Testar as possíveis posições para cada salto de posição 
+Para isso pensei em testar todas as posições como ponto de inicio e calcular todas os saltos individulmente.
+Ou seja, se a primeira letra de uma determinar string estiver alocada no endereço 90 da matriz, a segunda letra poderá estar nas posições 91 ou 93 ou 94.
+Pensei em fazer um if para cada teste, e cascatear isso dentro de uma função. 
+Isso é só uma idéia, estou aberto a sujestões :) 
+
+Pensando naquele exercicio recursivo de fatorial que o guilherme passou, onde 5! = 5 x 4!,  nao sabemos qual é a resposta para esse problema, por isso temos que resolver 
+todos os passos ate o final. 
+Feito o cálculo de todos os saltos possíveis, é possìvel usar uma função recursiva, que chame ela mesmo e retorne resultado esperado. 
+No caso seria se a posição é valida,  return 0 , caso não seja possível assumir tal posição, cai no else e  retorna erro.  
+Lembrando que teria que ter um saida de teclado onde o usuário teria que escrever com base nos caracteres alocados na matriz, algumas possiveis strings.
+Seria interessante fazer um sistema com opções para o usuário visualizar novamente a  matriz 
+
+
+ex:
+
+-----------------------------------
+exit (0)  |    Exibir Matrix (1) |    ...     
